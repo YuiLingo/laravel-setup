@@ -1,0 +1,22 @@
+{
+    "sourceFile": ".vscode/extensions.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1679848001335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1679848075142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n {\n     \"recommendations\": [\n-        \"felixfbecker.php-intellisense\"\n+        \"felixfbecker.php-intellisense\",\n+        \"onecentlin.laravel-extension-pack\"\n     ]\n }\n"
+                }
+            ],
+            "date": 1679848001335,
+            "name": "Commit-0",
+            "content": "{\n    \"recommendations\": [\n        \"felixfbecker.php-intellisense\"\n    ]\n}\n"
+        }
+    ]
+}
