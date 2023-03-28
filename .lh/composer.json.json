@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1679848469391,
@@ -12,6 +12,14 @@
                 {
                     "date": 1679848612640,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,21 +5,11 @@\n     \"keywords\": [\"framework\", \"laravel\"],\n     \"license\": \"MIT\",\n     \"require\": {\n         \"php\": \"^8.1\",\n-        \"guzzlehttp/guzzle\": \"^7.2\",\n-        \"laravel/framework\": \"^9.0\",\n-        \"laravel/sanctum\": \"^3.2\",\n-        \"laravel/tinker\": \"^2.8\"\n+        \"laravel/framework\": \"9.0\"\n     },\n     \"require-dev\": {\n-        \"fakerphp/faker\": \"^1.9.1\",\n-        \"laravel/pint\": \"^1.0\",\n-        \"laravel/sail\": \"^1.18\",\n-        \"mockery/mockery\": \"^1.4.4\",\n-        \"nunomaduro/collision\": \"^7.0\",\n-        \"phpunit/phpunit\": \"^10.0\",\n-        \"spatie/laravel-ignition\": \"^2.0\"\n     },\n     \"autoload\": {\n         \"psr-4\": {\n             \"App\\\\\": \"app/\",\n"
+                },
+                {
+                    "date": 1679928807358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,23 @@\n     \"description\": \"The Laravel Framework.\",\n     \"keywords\": [\"framework\", \"laravel\"],\n     \"license\": \"MIT\",\n     \"require\": {\n-        \"php\": \"^8.1\",\n-        \"laravel/framework\": \"9.0\"\n+        \"php\": \"^8.0\",\n+        \"fruitcake/laravel-cors\": \"^2.0.5\",\n+        \"guzzlehttp/guzzle\": \"^7.2\",\n+        \"laravel/framework\": \"^9.0\",\n+        \"laravel/sanctum\": \"^2.14\",\n+        \"laravel/tinker\": \"^2.7\",\n+        \"tcg/voyager\": \"1.6.*\"\n     },\n     \"require-dev\": {\n+        \"fakerphp/faker\": \"^1.9.1\",\n+        \"laravel/sail\": \"^1.0.1\",\n+        \"mockery/mockery\": \"^1.4.4\",\n+        \"nunomaduro/collision\": \"^6.1\",\n+        \"phpunit/phpunit\": \"^9.5.10\",\n+        \"spatie/laravel-ignition\": \"^1.0\"\n     },\n     \"autoload\": {\n         \"psr-4\": {\n             \"App\\\\\": \"app/\",\n@@ -44,13 +55,9 @@\n     },\n     \"config\": {\n         \"optimize-autoloader\": true,\n         \"preferred-install\": \"dist\",\n-        \"sort-packages\": true,\n-        \"allow-plugins\": {\n-            \"pestphp/pest-plugin\": true,\n-            \"php-http/discovery\": true\n-        }\n+        \"sort-packages\": true\n     },\n-    \"minimum-stability\": \"stable\",\n+    \"minimum-stability\": \"dev\",\n     \"prefer-stable\": true\n }\n"
+                },
+                {
+                    "date": 1679928828357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     \"require\": {\n         \"php\": \"^8.0\",\n         \"fruitcake/laravel-cors\": \"^2.0.5\",\n         \"guzzlehttp/guzzle\": \"^7.2\",\n-        \"laravel/framework\": \"^9.0\",\n+        \"laravel/framework\": \"~9.0\",\n         \"laravel/sanctum\": \"^2.14\",\n         \"laravel/tinker\": \"^2.7\",\n         \"tcg/voyager\": \"1.6.*\"\n     },\n"
                 }
             ],
             "date": 1679848469391,
