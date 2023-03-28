@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use TCG\Voyager\Facades\Voyager;
 use TCG\Voyager\Tests\Database\Factories\RoleFactory;
 
-class Role extends TCG\Voyager\Models\Role
+class Role extends \TCG\Voyager\Models\Role
 {
     use Blameable, HasFactory;
 
