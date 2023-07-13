@@ -23,7 +23,9 @@ trait TryCatch {
 
         } catch (Throwable $e) {
 
-            if ($localTransaction) {if ($rollback) {DB::rollback();}}
+            if ($localTransaction) {
+                if ($rollback) {DB::rollback();} else {DB::commit();}
+            }
 
             if ($exception) {throw new Exception($e->getMessage());}
 
